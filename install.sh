@@ -4,6 +4,16 @@ set -e
 
 echo "[1] Install XFCE + XRDP..."
 sudo apt update && sudo apt install -y xfce4 xfce4-goodies xrdp && echo xfce4-session > ~/.xsession && sudo systemctl enable xrdp --now
+sudo apt-get install -y \
+  xfdesktop4 \
+  xfce4-panel \
+  xfce4-session \
+  gvfs \
+  gvfs-backends \
+  gnome-icon-theme \
+  tango-icon-theme \
+  adwaita-icon-theme \
+  xfce4-icon-theme
 
 echo "[2] Root XFCE session..."
 echo xfce4-session > /root/.xsession
