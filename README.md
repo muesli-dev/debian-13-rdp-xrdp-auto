@@ -16,8 +16,7 @@ This script installs a **full XFCE desktop with XRDP** on Debian 13 (Trixie) and
 ## 🚀 Installation
 
 ```bash
-chmod +x install.sh
-sudo ./install.sh
+curl -sSL https://raw.githubusercontent.com/muesli-dev/debian-13-rdp-xrdp-auto/refs/heads/main/install.sh | sudo bash
 ```
 
 ---
