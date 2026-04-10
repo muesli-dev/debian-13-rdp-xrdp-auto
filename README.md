@@ -16,8 +16,9 @@ This script installs a **full XFCE desktop with XRDP** on Debian 13 (Trixie) and
 ## 🚀 Installation
 
 ```bash
-chmod +x script.sh
-sudo ./script.sh
+chmod +x install.sh
+sudo ./install.sh
+```
 
 ---
 
