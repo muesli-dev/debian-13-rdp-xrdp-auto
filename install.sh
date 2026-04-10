@@ -10,10 +10,11 @@ sudo apt-get install -y \
   xfce4-session \
   gvfs \
   gvfs-backends \
+  adwaita-icon-theme \
   gnome-icon-theme \
   tango-icon-theme \
-  adwaita-icon-theme \
-  xfce4-icon-theme
+  elementary-xfce-icon-theme \
+  papirus-icon-theme
 
 echo "[2] Root XFCE session..."
 echo xfce4-session > /root/.xsession
